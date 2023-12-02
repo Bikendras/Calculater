@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+*
+{
+    margin: 0%;
+    padding: 2%;
+    /* background-color: aqua; */
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main
+{
+    height: 300px;
+    width: 250px;
+    background-color: #25d38d; 
+    margin-left: 40%;
+    box-shadow: 0px 0px 10px rgb(9, 10, 10);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#display input
+{
+    height: 50px;
+    width: 100%;
+    margin: px 0px 0px 10px;
+    background: rgb(230 215 215);
+    text-align: right;
+    cursor: pointer;
+    
+}
+input::placeholder
+{
+    color: black;
+}
+
+#buttons{
+    width: 100%;
+}
+#buttons div button
+{
+    height: 30px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    font-size: 15px;
+    box-shadow: -8px -8px 15px rgba(0,  0, 0, 0.1);
+    cursor: pointer;
+}
+.equelbtn
+{
+    background-color: orange;
+
+}
+.operat
+{
+    background-color: green;
+}
+
+
+
+
+
+
